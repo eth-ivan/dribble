@@ -1,0 +1,33 @@
+.button {
+  color: #4E78BE;
+  padding: 10px 32px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.standard {
+  border: 2px solid #4E78BE;
+}
+
+.standard:hover {
+  color: white;
+  background-color: #3C81F0;
+  border: 2px solid #3C81F0;
+}
+
+.pro {
+  background: linear-gradient(to right, white, white);
+  border: 2px solid white;
+}
+
+.pro:hover {
+  color: white;
+  border: 2px solid white;
+  background: none;
+}
+
+
+
+/* <a href="#" class="btn-purchase">Write a story</a> */

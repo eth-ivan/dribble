@@ -1,0 +1,44 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+@import url("components/button.css");
+@import url("components/plans.css");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #F8F6F7;
+  padding: 12px 12px;
+}
+
+.container h1 {
+  margin: 24px 0;  
+  font-size: 2.5rem;
+}
+
+.container > p {
+  margin-bottom: 64px;
+  font-size: 1.25rem;
+}

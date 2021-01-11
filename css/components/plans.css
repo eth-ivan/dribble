@@ -1,0 +1,60 @@
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan {
+  width: 220px;
+  border-radius: 12px;
+}
+
+.plan h3 {
+  font-size: 1.6rem;
+}
+
+.plan > h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+#normal-price {
+  color: #4E78BE;
+}
+
+.plan > h4 {
+  font-size: 1.2rem;
+}
+
+.normal {
+  border: 2px solid #4E78BE;
+  height: 300px;
+  padding: 16px 0;
+}
+
+.margin-bottom-12 {
+  margin-bottom: 12px;
+}
+
+.margin-bottom-32 {
+  margin-bottom: 32px;;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;;
+}
+
+.yes-color {
+  color: #6298F8;
+}
+
+.no-color {
+  color: #F47171;
+}
+
+.best {
+  background: linear-gradient(to right, #1A62DA, #3F84F3);
+  height: 330px;
+  padding: 32px 0;
+  color: white;
+}
