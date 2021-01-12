@@ -7,6 +7,12 @@
 .plan {
   width: 220px;
   border-radius: 12px;
+  transition: all 0.2s ease;
+  transform: scale(0.975);
+}
+
+.plan:hover {
+  transform: scale(1);
 }
 
 .plan h3 {
