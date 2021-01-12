@@ -1,6 +1,7 @@
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
 @import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 /* Components */
 @import url("components/button.css");
@@ -13,8 +14,14 @@
   /* border: 1px solid red; */
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
+}
+
+h1, h2, h3, h4 {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -33,9 +40,9 @@ body {
   padding: 12px 12px;
 }
 
-.container h1 {
+.container > h1 {
   margin-bottom: 24px; 
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .container > p {
